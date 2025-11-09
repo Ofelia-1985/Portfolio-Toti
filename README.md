@@ -9,7 +9,7 @@ Projeto desenvolvido durante o Módulo #1 - HTML do curso de Marketing e FrontEn
 Este portfólio foi desenvolvido utilizando apenas **HTML puro**, com o objetivo de ser leve, acessível e fácil de editar.  
 Nele, você encontrará:
 
-- **Foto de perfil** e **vídeo de introdução**
+- **Foto de perfil** 
 - Uma breve **apresentação pessoal**
 - Seções de **experiência profissional**, **cursos** e **projetos**
 - Um **formulário de contato**
