@@ -27,7 +27,7 @@ Nele, você encontrará:
 
 **Carmen Urbina**  
 💼 Portfólio: [em desenvolvimento]  
-📧 E-mail: urbinalcarmen@gmail.com
+📧 E-mail: urbinalcarmen@gmail.com 
 📍 Localização: Brasil  
 
 ---
