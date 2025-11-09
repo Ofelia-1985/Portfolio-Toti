@@ -28,12 +28,11 @@ Nele, você encontrará:
 **Carmen Urbina**  
 💼 Portfólio: [em desenvolvimento]  
 📧 E-mail: urbinalcarmen@gmail.com 
-📍 Localização: Brasil  
 
 ---
 
 ## 🚀 Como visualizar
 
-1. Baixe ou clone este repositório:
+1. Baixe ou clone este repositório: 
    ```bash
-   git clone https://github.com/usuario/portfolio-carmen-urbina.git
+   git clone https://github.com/usuario/Portfolio-Toti.git
