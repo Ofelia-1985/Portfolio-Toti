@@ -37,3 +37,8 @@ Nele, você encontrará:
 1. Baixe ou clone este repositório: 
    ```bash
    git clone https://github.com/Ofelia-1985/Portfolio-Toti.git
+
+ou
+
+2. 🔗 Veja o projeto funcionando: 
+https://ofelia-1985.github.io/Portfolio-Toti
