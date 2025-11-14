@@ -6,7 +6,7 @@ Projeto desenvolvido durante o Módulo #3 - HTML e Modulo #4 - CSS3 do curso de 
 
 ## 🧭 Sobre o projeto
 
-Este portfólio foi desenvolvido utilizando apenas **HTML puro**, com o objetivo de ser leve, acessível e fácil de editar.  
+Este portfólio foi desenvolvido utilizando apenas **HTML puro**, e Estilização com CSS3, com o objetivo de ser leve, acessível e fácil de editar.  
 Nele, você encontrará:
 
 - **Foto de perfil** 
