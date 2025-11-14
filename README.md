@@ -32,13 +32,13 @@ Nele, você encontrará:
 
 ---
 
-## 🚀 Como visualizar o código:
-
-1. Baixe ou clone este repositório: 
-   ```bash
-   git clone https://github.com/Ofelia-1985/Portfolio-Toti.git
+## 🔗 Acesse a Versão Online:  
+https://ofelia-1985.github.io/Portfolio-Toti/
 
 ---
 
-## 🔗 Acesse a Versão Online:  
-https://ofelia-1985.github.io/Portfolio-Toti
+## 🚀 Como visualizar o código:
+
+Baixe ou clone este repositório: 
+   ```bash
+   git clone https://github.com/Ofelia-1985/Portfolio-Toti.git
