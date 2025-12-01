@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="pt-BR"
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Portfólio de Carmen Urbina</title>
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+        <link rel="stylesheet" href="style.css">
+    </head>
+        <body>
+    <header>
+        <div class="foto-perfil">
+        <img class="img-perfil" src="./src/carmen-urbina-foto.jpg" alt="Foto de Carmen Urbina">
+        </div>
+
+        <h1>Carmen Urbina</h1>
+        <p>Desenvolvedora Web Full-Stack · Rio de Janeiro, Brasil</p>
+        <p class="contato">📧 urbinalcarmen@gmail.com</p>
+
+        <div class="botoes-sociais">
+        <a href="https://github.com/Ofelia-1985" target="_blank" class="btn-social github">GitHub</a>
+        <a href="https://www.linkedin.com/" target="_blank" class="btn-social linkedin">LinkedIn</a>
+        <a href="https://www.instagram.com/" target="_blank" class="btn-social instagram">Instagram</a>
+        </div>
+    </header>
+
+    <main>
+        <button id="toggle-welcome" class="btn">Ocultar boas-vindas</button>
+
+        <div id="welcome-box" class="welcome-box">
+        🎉 Bem-vindo(a)! Obrigado por visitar minha página. Fique à vontade para explorar meus projetos e entrar em contato.
+        </div>
+
+        <section id="sobre-mim">
+        <h2>Sobre mim</h2>
+        <p>
+            Olá! Eu sou <strong>Carmen Urbina</strong>, desenvolvedora Fullstack apaixonada por tecnologia e por criar soluções que conectam pessoas e ideias.
+            Trabalho tanto no frontend quanto no backend, desenvolvendo aplicações completas com foco em desempenho, usabilidade e boas práticas.
+        </p>
+        </section>
+
+        <section id="experiencia">
+        <h2>Experiência Profissional</h2>
+        <ul>
+            <li><strong>Analista de Desenvolvimento e Sistemas / Neon</strong> (2022–2023)
+            <ul>
+                <li>Integração e análise de bases de dados (SQL Server, MongoDB).</li>
+                <li>Desenvolvimento e consumo de APIs.</li>
+                <li>Programação com C# e aplicação de testes unitários.</li>
+            </ul>
+            </li><br>
+            <li><strong>Operadora de Supermercado / Carrefour</strong> (2019–2021)
+            <ul>
+                <li>Gestão de notas fiscais.</li>
+                <li>Atendimento ao cliente e resolução de conflitos com empatia.</li>
+            </ul>
+            </li><br>
+            <li><strong>Administração / Colégio Emilio Crespo</strong> (2017–2019)
+            <ul>
+                <li>Análises de dados e relatórios em Excel e PowerBI.</li>
+                <li>Cadastro de novos funcionários, alunos e representantes.</li>
+            </ul>
+            </li>
+        </ul>
+        </section>
+
+        <section id="cursos">
+        <h2>Cursos e Certificações</h2>
+        <ul>
+            <li><strong>Suporte Técnico</strong> – Toti Diversidade (2025)</li>
+            <li><strong>UX-UI</strong> – Senac (2024)</li>
+            <li><strong>Banco de Dados</strong> – Toti Diversidade (2023)</li>
+            <li><strong>Análise de Dados</strong> – Toti Diversidade (2023)</li>
+            <li><strong>Desenvolvimento Web Fullstack</strong> – Toti Diversidade (2021)</li>
+        </ul>
+        </section>
+
+        <section id="projetos">
+        <h2>Projetos</h2>
+        <div class="projetos">
+            <a href="https://github.com/Ofelia-1985/Jogo-nro-secreto" target="_blank" class="projeto-card">
+            <h3>🎯 Jogo Número Secreto</h3>
+            <p>Jogo interativo com comandos de voz para adivinhar o número secreto.</p>
+            </a>
+            <a href="https://github.com/Ofelia-1985/DarkModeAlura" target="_blank" class="projeto-card">
+            <h3>🌙 Modo Dark - GOT</h3>
+            <p>Projeto de prática em JavaScript com implementação de modo escuro.</p>
+            </a>
+            <a href="https://github.com/Ofelia-1985/midi" target="_blank" class="projeto-card">
+            <h3>🎵 Projeto MIDI</h3>
+            <p>Aplicação web interativa que cria e reproduz sons via teclado virtual.</p>
+            </a>
+        </div>
+        </section>
+
+        <section id="contato">
+        <h2>Contato</h2>
+        <form action="#" method="post">
+            <label for="nome">Nome:</label>
+            <input type="text" id="nome" name="nome" required>
+
+            <label for="email">E-mail:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="mensagem">Mensagem:</label>
+            <textarea id="mensagem" name="mensagem" rows="5" required></textarea>
+
+            <input type="submit" value="Enviar">
+            </form>
+            </section>
+        </main>
+
+        <footer>
+            <p>© 2025 Carmen Urbina — Todos os direitos reservados.</p>
+        </footer>
+        <script src="portfolio.js"></script>
+        </body>
+</html>
