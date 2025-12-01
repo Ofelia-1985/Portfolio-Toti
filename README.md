@@ -1,12 +1,12 @@
 # Portfólio de Carmen Urbina
 
 Bem-vindo(a) ao meu portfólio! 🌟  
-Projeto desenvolvido durante o Módulo #3 - HTML e Modulo #4 - CSS3 do curso de Marketing e FrontEnd, na Toti Diversidade, como demonstração prática do meu aprendizado.
+Projeto desenvolvido durante o curso de Marketing e FrontEnd, na Toti Diversidade, como demonstração prática do meu aprendizado.
 ---
 
 ## 🧭 Sobre o projeto
 
-Este portfólio foi desenvolvido utilizando apenas **HTML puro**, e Estilização com CSS3, com o objetivo de ser leve, acessível e fácil de editar.  
+Este portfólio foi desenvolvido utilizando apenas **HTML puro**, Estilização com **CSS3**, e **JavaScript** com o objetivo de ser leve, acessível e fácil de editar.  
 Nele, você encontrará:
 
 - **Foto de perfil** 
@@ -20,7 +20,7 @@ Nele, você encontrará:
 
 - HTML5  
 - CSS3  
-- (Futuramente) JavaScript
+- JavaScript
 
 ---
 
