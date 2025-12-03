@@ -13,7 +13,7 @@ body {
     padding: 20px;
 }
 
-/* ====== CABEÇALHO ====== */
+/* ====== HEADER ====== */
 header {
     text-align: center;
     background-color: #231844;
@@ -80,30 +80,32 @@ header .contato {
 .instagram {
     background: linear-gradient(45deg, #f09433, #e6683c, #dc2743, #cc2366, #bc1888);
 }
+
 /* ====== BEM-VINDO - TOGGLE ====== */
 
 .welcome-box.hidden {
-  display: none;
+    display: none;
 }
 
- .welcome-container {
-  margin-top: 10px;
+.welcome-container {
+    margin-top: 10px;
 }
 
 .btn {
-  background: linear-gradient(45deg, #f09433, #e6683c, #dc2743, #cc2366, #a618bc);;
-  color: #ffffff;
-  padding: 10px 18px;
-  margin-bottom: 18px;
-  border-radius: 8px;
-  border: none;
-  cursor: pointer;
-  font-weight: 600;
-  transition: 0.2s;
+    background: linear-gradient(45deg, #f09433, #e6683c, #dc2743, #cc2366, #a618bc);
+    color: #ffffff;
+    padding: 10px 18px;
+    margin-bottom: 18px;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+    font-weight: 600;
+    transition: 0.2s;
 }
 
-.btn:hover {
-  opacity: 0.8;
+.btn:hover,
+input[type="submit"]:hover {
+    opacity: 0.8;
 }
 
 .welcome-box {
@@ -112,7 +114,7 @@ header .contato {
     padding: 25px;
     border: 1px solid #554264;
     border-radius: 15px;
-    background-color:#0f172a;
+    background-color: #0f172a;
     color: #e2e8f0;
     font-size: 15px;
     box-shadow: 0 4px 15px rgba(0, 0, 0, 0.25);
@@ -137,7 +139,7 @@ section {
 h2 {
     color: #ffffff;
     border-bottom: 2px solid #6d4ff0;
-    padding-bottom: 8px;
+    padding-bottom: 10px;
     margin-bottom: 15px;
 }
 
@@ -155,6 +157,54 @@ ul {
 ul li::before {
     content: "• ";
     color: #6d4ff0;
+}
+
+/* ====== TOOGLE SECTIONS ====== */
+
+section:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.12);
+}
+
+section h2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+    user-select: none;
+    padding-bottom: 8px;
+    border-bottom: 2px solid #929292;
+    transition: color 0.3s ease;
+}
+
+section h2::after {
+    content: "▼";
+    font-size: 14px;
+    transition: transform 0.3s ease;
+}
+
+section h2.active::after {
+    transform: rotate(-180deg);
+}
+
+section,
+header,
+footer,
+button {
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.collapse-content {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.4s ease, opacity 0.3s ease;
+    opacity: 0;
+}
+
+.collapse-content.open {
+    max-height: 500px;
+    opacity: 1;
+    margin-top: 10px;
 }
 
 /* ====== PROJETOS ====== */
@@ -204,7 +254,7 @@ textarea:focus {
 }
 
 input[type="submit"] {
-    background-color: #6d4ff0;
+    background: linear-gradient(45deg, #f09433, #e6683c, #dc2743, #cc2366, #a618bc);
     border: none;
     color: white;
     font-weight: bold;
@@ -212,8 +262,63 @@ input[type="submit"] {
     transition: background-color 0.3s;
 }
 
-input[type="submit"]:hover {
-    background-color: #4527c7;
+header {
+    position: relative;
+}
+
+/*ICONO EN MODO OSCURO (por defecto) → BLANCO*/
+#theme-toggle {
+    position: absolute;
+    top: 15px;
+    right: 20px;
+    width: 32px;
+    cursor: pointer;
+    transition: transform .3s, filter .3s;
+    filter: brightness(0) invert(1);
+    /* negro → blanco */
+}
+
+#theme-toggle:hover {
+    transform: scale(1.1);
+}
+
+/* MODO CLARO ACTIVADO */
+body.light-mode {
+    background: #F6F2FF;
+    color: #2b265c;
+}
+
+body.light-mode #welcome-box {
+    background-color: #7d69b7;
+}
+
+body.light-mode main section {
+    background: #ffffff;
+    border-color: #E0D8FF;
+}
+
+body.light-mode section h2,
+body.light-mode section .collapse-content.open p,
+body.light-mode section .collapse-content.open li {
+    color: #353440;
+}
+
+body.light-mode .projeto-card {
+    background-color: #ccbcfc;
+}
+
+body.light-mode .projeto-card h3 {
+    color: #24292e;
+}
+
+body.light-mode input[type="text"],
+body.light-mode input[type="email"] {
+    background-color: #eae6f8;
+     color: #353440;
+}
+body.light-mode form textarea {
+    background-color: #eae6f8;
+     color: #353440;
 }
 
 /* ====== FOOTER ====== */
